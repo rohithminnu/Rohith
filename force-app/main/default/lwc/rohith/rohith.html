@@ -1,0 +1,31 @@
+<template>
+    <div class="box">
+        <div class="slds-grid slds-grid_vertical" >
+
+            <!--Logo/Branding-->
+            <div class="slds-col">
+                <p class="fontSizeCustom">Sign In</p>
+                
+            </div>
+
+                     <!--Input Data Types-->
+                     <div class="slds-col">
+                        <lightning-input type="text" variant="standard" name="name" label="Username"
+                        placeholder="Enter User Name" onchange={handleUsername} value={email}></lightning-input>
+
+                     </div>
+
+                     <div class="slds-col">
+                        <lightning-input type="password" variant="standard" name="name" label="Password"
+                        placeholder="Enter Password" onchange={handlePasswordChange} value={password}></lightning-input>
+
+                     </div>
+
+                                  <!--Login Button-->
+                                  <div class="slds-col">
+                                    <div class="button" onclick={handleLogin}>Log In</div>
+                                  </div>
+
+        </div>
+    </div>
+</template>

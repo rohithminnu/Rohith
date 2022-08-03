@@ -1,0 +1,22 @@
+.fontSizeCustom{
+    font-size: 2rem;
+}
+.box{
+    font-size: 2px solid #ddd;
+    width: 88%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 5px 10px #fffcfc;
+}
+.button{
+    margin-top: 1rem;
+    padding: 5px;
+    text-align: center;
+    background-color: #67e896;
+    color: black;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #07411f;
+    cursor: pointer;
+}
